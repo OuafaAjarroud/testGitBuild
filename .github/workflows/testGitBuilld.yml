@@ -1,0 +1,23 @@
+name: testGitBuild
+on:
+  push:
+    branches:
+      - main
+jobs:
+
+  compile:    
+    runs-on: [self-hosted]
+
+    steps:
+    - uses: actions/checkout@v3
+    - run: mkdir C:\Users\Ouafa\Desktop\testGitBuild\actions-runner\data
+	- run: START /b "" "C:\Program Files\4D\4D v20 R4\4D\4D.exe" "C:\Users\Ouafa\Desktop\testGitBuild\Project\testGitBuild.4DProject" --create-data "C:\Users\Ouafa\Desktop\testGitBuild\actions-runner\data\data.4DD" --user-param "compile"
+    - run: |
+        compilationResult=`cat compilationResult.txt`
+        echo $compilationResult
+        headCompilation=`head -n 1 compilationResult.txt`
+        rm compilationResult.txt
+        if [ "$headCompilation" = "Syntax check failed" ]
+        then
+          exit 1
+        fi
