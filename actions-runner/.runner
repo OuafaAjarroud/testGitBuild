@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "LAPTOP-T5UDKV6D",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus8.actions.githubusercontent.com/1CSYK5yYRQqW8NfNQq7g92o7ketRIsKtRCrGUEy0av6gjB2Pc5/",
+  "gitHubUrl": "https://github.com/OuafaAjarroud/testGitBuild",
+  "workFolder": "_work"
+}
