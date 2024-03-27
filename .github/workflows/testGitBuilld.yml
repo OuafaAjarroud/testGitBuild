@@ -13,6 +13,6 @@ jobs:
     - run: Start-Process -FilePath "C:\Program Files\4D\4D v20 R4\4D\4D.exe" -ArgumentList "--structure C:\Users\Ouafa\Desktop\testGitBuild\Project\testGitBuild.4DProject", "--user-param compile"
     - run: |
            $compilationResult=cat compilationResult.txt
-           if ($compilationResult != "Syntax check failed"){
+           if ($compilationResult = "Syntax check failed"){
            exit 1
            }
