@@ -13,6 +13,23 @@ jobs:
     - run: Start-Process -Wait -FilePath "C:\Program Files\4D\4D v20 R4\4D\4D.exe" -ArgumentList "--structure C:\Users\Ouafa\Desktop\testGitBuild\Project\testGitBuild.4DProject", "--user-param compile"
     - run: |
            $compilationResult=cat compilationResult.txt
+           rm compilationResult.txt
            if ($compilationResult -like "Syntax check failed*"){
            exit 1
            }
+           
+  
+  build:
+    needs: compile
+    runs-on: [self-hosted]
+
+    steps: 
+      - run: Start-Process -Wait -FilePath "C:\Program Files\4D\4D v20 R4\4D\4D.exe" -ArgumentList "--structure C:\Users\Ouafa\Desktop\testGitBuild\Project\testGitBuild.4DProject", "--user-param build"
+      - run: |
+          $buildResult=cat buildResult.txt
+          rm buildResult.txt
+           if ($compilationResult -like "build failed*"){
+          then
+            exit 1
+          }
+ 
