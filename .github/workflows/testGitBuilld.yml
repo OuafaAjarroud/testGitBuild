@@ -14,6 +14,6 @@ jobs:
     - run: |
            $compilationResult=cat compilationResult.txt
            if ($compilationResult = "Syntax check failed"){
-           echo "failed :'+"
+           echo $compilationResult
            exit 1
            }
