@@ -1,0 +1,1568 @@
+{
+	"_method_": {
+		"New OAuth2 provider": {
+			"Syntax": "**New OAuth2 provider**( *inParameters* : Object ) : Object",
+			"Params": [
+				[
+					"inParameters",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"New Office365 provider": {
+			"Syntax": "**New Office365 provider**( *inProvider* : cs.NetKit.OAuth2Provider; *inParameters* : Object ) : Object",
+			"Params": [
+				[
+					"inProvider",
+					"cs.NetKit.OAuth2Provider",
+					"->"
+				],
+				[
+					"inParameters",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"cs.NetKit": {
+		"Office365Mail": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider; *inParameters* : Object )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					],
+					[
+						"inParameters",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"GraphUserList": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider; *inURL* : Text; *inHeaders* : Object )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					],
+					[
+						"inURL",
+						"Text",
+						"->"
+					],
+					[
+						"inHeaders",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"EmailAddress": {
+			"new()": {
+				"Syntax": "**.new**( *inName* : Variant; *inAddress* : Text )",
+				"Params": [
+					[
+						"inName",
+						"Variant",
+						"->"
+					],
+					[
+						"inAddress",
+						"Text",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"GoogleMail": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider; *inParameters* : Object )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					],
+					[
+						"inParameters",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"GraphAttachment": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider; *inParams* : Object; *inObject* : Object )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					],
+					[
+						"inParams",
+						"Object",
+						"->"
+					],
+					[
+						"inObject",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"GraphRecipient": {
+			"new()": {
+				"Syntax": "**.new**( *inAddress* : Text; *inName* : Text )",
+				"Params": [
+					[
+						"inAddress",
+						"Text",
+						"->"
+					],
+					[
+						"inName",
+						"Text",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"Google": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider; *inParameters* : Object )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					],
+					[
+						"inParameters",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"GraphMessageList": {
+			"new()": {
+				"Syntax": "**.new**( *inMail* : cs.NetKit.Office365Mail; *inProvider* : cs.NetKit.OAuth2Provider; *inURL* : Text; *inHeaders* : Object )",
+				"Params": [
+					[
+						"inMail",
+						"cs.NetKit.Office365Mail",
+						"->"
+					],
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					],
+					[
+						"inURL",
+						"Text",
+						"->"
+					],
+					[
+						"inHeaders",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"GraphMessage": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider; *inParameters* : Object; *inObject* : Object )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					],
+					[
+						"inParameters",
+						"Object",
+						"->"
+					],
+					[
+						"inObject",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"GraphFolderList": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider; *inURL* : Text; *inHeaders* : Object )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					],
+					[
+						"inURL",
+						"Text",
+						"->"
+					],
+					[
+						"inHeaders",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"GoogleMailIdList": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider; *inURL* : Text )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					],
+					[
+						"inURL",
+						"Text",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"OAuth2Provider": {
+			"new()": {
+				"Syntax": "**.new**( *inParams* : Object )",
+				"Params": [
+					[
+						"inParams",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"OAuth2Token": {
+			"new()": {
+				"Syntax": "**.new**( *inParams* : Object )",
+				"Params": [
+					[
+						"inParams",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"Office365": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider; *inParameters* : Object )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					],
+					[
+						"inParameters",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"Office365User": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"_BaseAPI": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"_BaseClass": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"_GoogleAPI": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"_GoogleBaseList": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider; *inURL* : Text; *inName* : Text )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					],
+					[
+						"inURL",
+						"Text",
+						"->"
+					],
+					[
+						"inName",
+						"Text",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"_GoogleBatchRequest": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider; *inParam* : Object )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					],
+					[
+						"inParam",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"_GraphAPI": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"_GraphBaseList": {
+			"new()": {
+				"Syntax": "**.new**( *inProvider* : cs.NetKit.OAuth2Provider; *inURL* : Text; *inHeaders* : Object )",
+				"Params": [
+					[
+						"inProvider",
+						"cs.NetKit.OAuth2Provider",
+						"->"
+					],
+					[
+						"inURL",
+						"Text",
+						"->"
+					],
+					[
+						"inHeaders",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"_JWT": {
+			"new()": {
+				"Syntax": "**.new**( *inParam* : Object )",
+				"Params": [
+					[
+						"inParam",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		}
+	},
+	"Office365Mail": {
+		"getMail()": {
+			"Syntax": "**.getMail**( *inMailId* : Text; *inOptions* : Object )->response : Variant",
+			"Params": [
+				[
+					"inMailId",
+					"Text",
+					"->"
+				],
+				[
+					"inOptions",
+					"Object",
+					"->"
+				],
+				[
+					"response",
+					"Variant",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getMails()": {
+			"Syntax": "**.getMails**( *inParameters* : Object ) : Object",
+			"Params": [
+				[
+					"inParameters",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"append()": {
+			"Syntax": "**.append**( *inMail* : Variant; *inFolderId* : Text ) : Object",
+			"Params": [
+				[
+					"inMail",
+					"Variant",
+					"->"
+				],
+				[
+					"inFolderId",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"copy()": {
+			"Syntax": "**.copy**( *inMailId* : Text; *inFolderId* : Text ) : Object",
+			"Params": [
+				[
+					"inMailId",
+					"Text",
+					"->"
+				],
+				[
+					"inFolderId",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"delete()": {
+			"Syntax": "**.delete**( *inMailId* : Text ) : Object",
+			"Params": [
+				[
+					"inMailId",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"move()": {
+			"Syntax": "**.move**( *inMailId* : Text; *inFolderId* : Text ) : Object",
+			"Params": [
+				[
+					"inMailId",
+					"Text",
+					"->"
+				],
+				[
+					"inFolderId",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"reply()": {
+			"Syntax": "**.reply**( *inMail* : Object; *inMailId* : Text; *bReplyAll* : Boolean ) : Object",
+			"Params": [
+				[
+					"inMail",
+					"Object",
+					"->"
+				],
+				[
+					"inMailId",
+					"Text",
+					"->"
+				],
+				[
+					"bReplyAll",
+					"Boolean",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"send()": {
+			"Syntax": "**.send**( *inMail* : Variant ) : Object",
+			"Params": [
+				[
+					"inMail",
+					"Variant",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"update()": {
+			"Syntax": "**.update**( *inMailId* : Text; *inMail* : Object ) : Object",
+			"Params": [
+				[
+					"inMailId",
+					"Text",
+					"->"
+				],
+				[
+					"inMail",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"createFolder()": {
+			"Syntax": "**.createFolder**( *inFolderName* : Text; *bIsHidden* : Boolean; *inParentFolderId* : Text ) : Object",
+			"Params": [
+				[
+					"inFolderName",
+					"Text",
+					"->"
+				],
+				[
+					"bIsHidden",
+					"Boolean",
+					"->"
+				],
+				[
+					"inParentFolderId",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"deleteFolder()": {
+			"Syntax": "**.deleteFolder**( *inFolderId* : Text ) : Object",
+			"Params": [
+				[
+					"inFolderId",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getFolder()": {
+			"Syntax": "**.getFolder**( *inFolderId* : Text ) : Object",
+			"Params": [
+				[
+					"inFolderId",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getFolderList()": {
+			"Syntax": "**.getFolderList**( *inParameters* : Object ) : Object",
+			"Params": [
+				[
+					"inParameters",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"renameFolder()": {
+			"Syntax": "**.renameFolder**( *inFolderId* : Text; *inNewFolderName* : Text ) : Object",
+			"Params": [
+				[
+					"inFolderId",
+					"Text",
+					"->"
+				],
+				[
+					"inNewFolderName",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"mailType": {
+			"Syntax": "mailType : Text"
+		},
+		"userId": {
+			"Syntax": "userId : Text"
+		},
+		"_inheritedFrom_": "_GraphAPI"
+	},
+	"GraphUserList": {
+		"get users()": {
+			"Syntax": "**.get users**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"_inheritedFrom_": "_GraphBaseList"
+	},
+	"EmailAddress": {
+		"fromString()": {
+			"Syntax": "**.fromString**( *inValue* : Text )",
+			"Params": [
+				[
+					"inValue",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"toString()": {
+			"Syntax": "**.toString**()->result : Text",
+			"Params": [
+				[
+					"result",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"isValid()": {
+			"Syntax": "**.isValid**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"email": {
+			"Syntax": "email : Text"
+		},
+		"name": {
+			"Syntax": "name : Text"
+		}
+	},
+	"GoogleMail": {
+		"untrash()": {
+			"Syntax": "**.untrash**( *inMailId* : Text ) : Object",
+			"Params": [
+				[
+					"inMailId",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getMail()": {
+			"Syntax": "**.getMail**( *inMailId* : Text; *inParameters* : Object )->response : Variant",
+			"Params": [
+				[
+					"inMailId",
+					"Text",
+					"->"
+				],
+				[
+					"inParameters",
+					"Object",
+					"->"
+				],
+				[
+					"response",
+					"Variant",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"send()": {
+			"Syntax": "**.send**( *inMail* : Variant ) : Object",
+			"Params": [
+				[
+					"inMail",
+					"Variant",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"delete()": {
+			"Syntax": "**.delete**( *inMailId* : Text; *permanently* : Boolean ) : Object",
+			"Params": [
+				[
+					"inMailId",
+					"Text",
+					"->"
+				],
+				[
+					"permanently",
+					"Boolean",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getMailIds()": {
+			"Syntax": "**.getMailIds**( *inParameters* : Object ) : Object",
+			"Params": [
+				[
+					"inParameters",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getMails()": {
+			"Syntax": "**.getMails**( *inMailIds* : Collection; *inParameters* : Object ) : Collection",
+			"Params": [
+				[
+					"inMailIds",
+					"Collection",
+					"->"
+				],
+				[
+					"inParameters",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"update()": {
+			"Syntax": "**.update**( *inMailIds* : Collection; *inParameters* : Object ) : Object",
+			"Params": [
+				[
+					"inMailIds",
+					"Collection",
+					"->"
+				],
+				[
+					"inParameters",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getLabelList()": {
+			"Syntax": "**.getLabelList**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getLabel()": {
+			"Syntax": "**.getLabel**( *inLabelId* : Text ) : Object",
+			"Params": [
+				[
+					"inLabelId",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"createLabel()": {
+			"Syntax": "**.createLabel**( *inLabelInfo* : Object ) : Object",
+			"Params": [
+				[
+					"inLabelInfo",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"deleteLabel()": {
+			"Syntax": "**.deleteLabel**( *inLabelId* : Text ) : Object",
+			"Params": [
+				[
+					"inLabelId",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"updateLabel()": {
+			"Syntax": "**.updateLabel**( *inLabelId* : Text; *inLabelInfo* : Object ) : Object",
+			"Params": [
+				[
+					"inLabelId",
+					"Text",
+					"->"
+				],
+				[
+					"inLabelInfo",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"mailType": {
+			"Syntax": "mailType : Text"
+		},
+		"userId": {
+			"Syntax": "userId : Text"
+		},
+		"_inheritedFrom_": "_GoogleAPI"
+	},
+	"GraphAttachment": {
+		"fromMailAttachment()": {
+			"Syntax": "**.fromMailAttachment**( *inObject* : 4D.MailAttachment )",
+			"Params": [
+				[
+					"inObject",
+					"4D.MailAttachment",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"getContent()": {
+			"Syntax": "**.getContent**() : 4D.Blob",
+			"Params": [
+				[
+					"",
+					"4D.Blob",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"setContent()": {
+			"Syntax": "**.setContent**( *inContent* : 4D.Blob )",
+			"Params": [
+				[
+					"inContent",
+					"4D.Blob",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"isInline": {
+			"Syntax": "isInline : Boolean"
+		},
+		"id": {
+			"Syntax": "id : Text"
+		},
+		"contentBytes": {
+			"Syntax": "contentBytes : Text"
+		},
+		"size": {
+			"Syntax": "size : Integer"
+		},
+		"contentId": {
+			"Syntax": "contentId : Text"
+		},
+		"name": {
+			"Syntax": "name : Text"
+		},
+		"contentType": {
+			"Syntax": "contentType : Text"
+		},
+		"_inheritedFrom_": "_GraphAPI"
+	},
+	"GraphRecipient": {
+		"emailAddress": {
+			"Syntax": "emailAddress : Object"
+		}
+	},
+	"Google": {
+		"get mail()": {
+			"Syntax": "**.get mail**() : cs.NetKit.GoogleMail",
+			"Params": [
+				[
+					"",
+					"cs.NetKit.GoogleMail",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"GraphMessageList": {
+		"get mails()": {
+			"Syntax": "**.get mails**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"next()": {
+			"Syntax": "**.next**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"previous()": {
+			"Syntax": "**.previous**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"_inheritedFrom_": "_GraphBaseList"
+	},
+	"GraphMessage": {
+		"get attachments()": {
+			"Syntax": "**.get attachments**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"id": {
+			"Syntax": "id : Text"
+		},
+		"_inheritedFrom_": "_GraphAPI"
+	},
+	"GraphFolderList": {
+		"get folders()": {
+			"Syntax": "**.get folders**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"_inheritedFrom_": "_GraphBaseList"
+	},
+	"GoogleMailIdList": {
+		"get mailIds()": {
+			"Syntax": "**.get mailIds**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"_inheritedFrom_": "_GoogleBaseList"
+	},
+	"OAuth2Provider": {
+		"get tokenURI()": {
+			"Syntax": "**.get tokenURI**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getToken()": {
+			"Syntax": "**.getToken**()->result : Object",
+			"Params": [
+				[
+					"result",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get authenticateURI()": {
+			"Syntax": "**.get authenticateURI**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get grantType()": {
+			"Syntax": "**.get grantType**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get scope()": {
+			"Syntax": "**.get scope**()->scope : Text",
+			"Params": [
+				[
+					"scope",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"redirectURI": {
+			"Syntax": "redirectURI : Text"
+		},
+		"loginHint": {
+			"Syntax": "loginHint : Text"
+		},
+		"name": {
+			"Syntax": "name : Text"
+		},
+		"permission": {
+			"Syntax": "permission : Text"
+		},
+		"tokenExpiration": {
+			"Syntax": "tokenExpiration : Text"
+		},
+		"clientId": {
+			"Syntax": "clientId : Text"
+		},
+		"tenant": {
+			"Syntax": "tenant : Text"
+		},
+		"clientSecret": {
+			"Syntax": "clientSecret : Text"
+		},
+		"token": {
+			"Syntax": "token : Object"
+		},
+		"timeout": {
+			"Syntax": "timeout : Integer"
+		},
+		"authenticationPage": {
+			"Syntax": "authenticationPage : 4D.File"
+		},
+		"authenticationErrorPage": {
+			"Syntax": "authenticationErrorPage : 4D.File"
+		},
+		"accessType": {
+			"Syntax": "accessType : Text"
+		},
+		"prompt": {
+			"Syntax": "prompt : Text"
+		},
+		"clientEmail": {
+			"Syntax": "clientEmail : Text"
+		},
+		"privateKey": {
+			"Syntax": "privateKey : Text"
+		},
+		"_inheritedFrom_": "_BaseClass"
+	},
+	"OAuth2Token": {
+		"token": {
+			"Syntax": "token : Object"
+		},
+		"tokenExpiration": {
+			"Syntax": "tokenExpiration : Text"
+		}
+	},
+	"Office365": {
+		"get user()": {
+			"Syntax": "**.get user**() : cs.NetKit.Office365User",
+			"Params": [
+				[
+					"",
+					"cs.NetKit.Office365User",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get mail()": {
+			"Syntax": "**.get mail**() : cs.NetKit.Office365Mail",
+			"Params": [
+				[
+					"",
+					"cs.NetKit.Office365Mail",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"Office365User": {
+		"count()": {
+			"Syntax": "**.count**( *inParameters* : Object ) : Object",
+			"Params": [
+				[
+					"inParameters",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getCurrent()": {
+			"Syntax": "**.getCurrent**( *inSelect* : Text )->userInfo : Object",
+			"Params": [
+				[
+					"inSelect",
+					"Text",
+					"->"
+				],
+				[
+					"userInfo",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get()": {
+			"Syntax": "**.get**( *inID* : Text; *inSelect* : Text ) : Object",
+			"Params": [
+				[
+					"inID",
+					"Text",
+					"->"
+				],
+				[
+					"inSelect",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"list()": {
+			"Syntax": "**.list**( *inParameters* : Object ) : Object",
+			"Params": [
+				[
+					"inParameters",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"_inheritedFrom_": "_GraphAPI"
+	},
+	"_BaseAPI": {
+		"_inheritedFrom_": "_BaseClass"
+	},
+	"_BaseClass": {},
+	"_GoogleAPI": {
+		"_inheritedFrom_": "_BaseAPI"
+	},
+	"_GoogleBaseList": {
+		"next()": {
+			"Syntax": "**.next**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"previous()": {
+			"Syntax": "**.previous**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"page": {
+			"Syntax": "page : Integer"
+		},
+		"isLastPage": {
+			"Syntax": "isLastPage : Boolean"
+		},
+		"errors": {
+			"Syntax": "errors : Collection"
+		},
+		"statusText": {
+			"Syntax": "statusText : Text"
+		},
+		"success": {
+			"Syntax": "success : Boolean"
+		},
+		"_inheritedFrom_": "_GoogleAPI"
+	},
+	"_GoogleBatchRequest": {
+		"sendRequestAndWaitResponse()": {
+			"Syntax": "**.sendRequestAndWaitResponse**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get boundary()": {
+			"Syntax": "**.get boundary**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get body()": {
+			"Syntax": "**.get body**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"generateBody()": {
+			"Syntax": "**.generateBody**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"headers": {
+			"Syntax": "headers : Object"
+		},
+		"verb": {
+			"Syntax": "verb : Text"
+		},
+		"URL": {
+			"Syntax": "URL : Text"
+		},
+		"batchRequestes": {
+			"Syntax": "batchRequestes : Collection"
+		},
+		"_inheritedFrom_": "_GoogleAPI"
+	},
+	"_GraphAPI": {
+		"_inheritedFrom_": "_BaseAPI"
+	},
+	"_GraphBaseList": {
+		"next()": {
+			"Syntax": "**.next**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"previous()": {
+			"Syntax": "**.previous**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"page": {
+			"Syntax": "page : Integer"
+		},
+		"isLastPage": {
+			"Syntax": "isLastPage : Boolean"
+		},
+		"errors": {
+			"Syntax": "errors : Collection"
+		},
+		"statusText": {
+			"Syntax": "statusText : Text"
+		},
+		"success": {
+			"Syntax": "success : Boolean"
+		},
+		"_inheritedFrom_": "_GraphAPI"
+	},
+	"_JWT": {
+		"generate()": {
+			"Syntax": "**.generate**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"validate()": {
+			"Syntax": "**.validate**( *inJWT* : Text; *inPrivateKey* : Text ) : Boolean",
+			"Params": [
+				[
+					"inJWT",
+					"Text",
+					"->"
+				],
+				[
+					"inPrivateKey",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"header": {
+			"Syntax": "header : Object"
+		},
+		"payload": {
+			"Syntax": "payload : Object"
+		},
+		"privateKey": {
+			"Syntax": "privateKey : Text"
+		}
+	}
+}

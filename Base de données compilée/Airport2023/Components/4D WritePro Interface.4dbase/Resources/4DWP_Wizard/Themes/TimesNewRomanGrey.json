@@ -1,0 +1,64 @@
+﻿{
+	"default": {
+		"backgroundColor": "#F0F0F0",
+		"borderColor": "#202020",
+		"borderStyle": 0,
+		"borderWidth": "0.5pt",
+		"font": "Times New Roman",
+		"color": "#101010",
+		"fontFamily": "Times New Roman",
+		"fontSize": "9pt",
+		"padding": "2pt",
+		"textAlign": 0
+	},
+	"table": {
+		"borderWidth": "2pt",
+		"borderColor": "#4B4B4B",
+		"borderStyle": 1
+	},
+	"header1": {
+		"backgroundColor": "#666666",
+		"color": "#F2F2F2",
+		"fontSize": "14pt",
+		"textAlign": 2
+	},
+	"header2": {
+		"fontSize": "13pt",
+		"color": "#F2F2F2",
+		"backgroundColor": "#7F7F7F",
+		"textAlign": 2
+	},
+	"header3": {
+		"fontSize": "12pt",
+		"color": "#F2F2F2",
+		"backgroundColor": "#9A9A9A",
+		"textAlign": 2
+	},
+	"data": {
+		"color": "#202020",
+		"fontSize": "10pt"
+	},
+	"break1": {
+		"fontSize": "14pt",
+		"color": "#F2F2F2",
+		"backgroundColor": "#666666",
+		"textAlign": 1
+	},
+	"break2": {
+		"fontSize": "13pt",
+		"color": "#F2F2F2",
+		"backgroundColor": "#7F7F7F",
+		"textAlign": 1
+	},
+	"break3": {
+		"fontSize": "12pt",
+		"color": "#F2F2F2",
+		"backgroundColor": "#9A9A9A",
+		"textAlign": 1
+	},
+	"bcor": {
+		"backgroundColor": "#CDCDCD",
+		"textAlign": 2,
+		"fontSize": "10pt"
+	}
+}
