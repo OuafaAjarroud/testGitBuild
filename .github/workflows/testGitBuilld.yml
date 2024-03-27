@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run: START /b "" "C:\Program Files\4D\4D v20 R4\4D\4D.exe" "C:\Users\Ouafa\Desktop\testGitBuild\Project\testGitBuild.4DProject" --create-data "C:\Users\Ouafa\Desktop\testGitBuild\actions-runner\data\data.4DD" --user-param "compile"
+    - run: Start-Process -FilePath "C:\Program Files\4D\4D v20 R4\4D\4D.exe" -ArgumentList "--structure C:\Users\Ouafa\Desktop\testGitBuild\Project\testGitBuild.4DProject", "--user-param compile"
     - run: |
         compilationResult=`cat compilationResult.txt`
         echo $compilationResult
@@ -20,3 +20,10 @@ jobs:
         then
           exit 1
         fi
+
+
+
+
+
+
+

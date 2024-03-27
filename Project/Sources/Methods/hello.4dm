@@ -1,2 +1,2 @@
 //%attributes = {}
-ALERT:C41("hello world from Rabat, Morocco")
+ALERT:C41("hello world from Rabat, Morocco!")
