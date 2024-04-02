@@ -10,4 +10,4 @@ End if
 $CI_CD_workflow:=cs:C1710.CI_CD_workflow.new($userParam)
 $CI_CD_workflow.execute()
 
-ALERT:C41("start")
+ALERT:C41("hello Ouafa from Git")
